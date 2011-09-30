@@ -98,16 +98,19 @@
 
 <p>WebOb is a Python library that provides wrappers around the WSGI request environment,
 and an object to help create WSGI responses.
+The objects map much of the specified behavior of HTTP, including header parsing, content
+negotiation and correct handling of conditional and range requests.
 </p>
 
-<p>The objects map much of the specified behavior of HTTP, including header parsing and accessors for other standard parts of the environment.
-This helps you create valid WSGI applications and middleware without knowing all the complexities of WSGI itself.
+<p>This helps you create rich applications and valid middleware without
+knowing all the complexities of WSGI and HTTP.
 </p>
 
 <h3>WebOb benefits</h3>
 <ul>
+    <li>Maps most of HTTP spec to friendly data structures.</li>
     <li>Time-proven codebase that hides and works around all known WSGI quirks.</li>
-    <li>Bugs are always fixed ASAP.</li>
+    <li>Zero open issues (new bugs are always fixed ASAP).</li>
     <li>No external dependencies.</li>
 </ul>
 
