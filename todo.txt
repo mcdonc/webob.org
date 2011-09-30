@@ -1,0 +1,9 @@
+TODO:
+
+list more users
+group users into web fw and apps
+add websites that depend on it via frameworks
+add links to py25 and py24 releases
+add js to get version info
+    news.html h# + regex
+    maybe master __init__ __version__ for latest
