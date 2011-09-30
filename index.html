@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WebOb &mdash; WSGI request and response objects</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      body { padding-top: 40px; }
+      p, ul, ol { font-size: 105%; }
+      p, li { color: black; }
+<!--
+
+      html, body {
+        background-color: #eee;
+      }
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+      .container {
+        width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+      }
+
+      /* The white background content wrapper */
+      .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0 1px 2px rgba(0,0,0,.15);
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #f5f5f5;
+        padding: 20px 20px 10px;
+        margin: -20px -20px 20px;
+      }
+
+      /* Styles you shouldn't keep as they are for displaying this base example only */
+      .content .span10,
+      .content .span4 {
+        min-height: 500px;
+      }
+      /* Give a quick and non-cross-browser friendly divider */
+      .content .span4 {
+        margin-left: 0;
+        padding-left: 19px;
+        border-left: 1px solid #eee;
+      }
+
+      .topbar .btn {
+        border: 0;
+      }
+
+* `WebOb reference <en/latest/reference.html>`_
+* `Release news <http://docs.webob.org/en/latest/news.html>`_
+* `Detailed changelog <https://github.com/Pylons/webob/commits/master>`_
+
+-->
+
+    </style>
+
+</head>
+<body>
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <!--<a class="brand" href="http://webob.org/">WebOb</a>-->
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="https://github.com/Pylons/webob/issues">Bug tracker</a></li>
+            <li><a href="https://github.com/Pylons/webob">Source code</a></li>
+            <li><a href="http://docs.webob.org/">Documentation</a></li>
+            <li><a href="http://bit.ly/paste-users">Mailing list</a></li>
+            <li><a href="http://pypi.python.org/pypi/WebOb">Downloads</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+          <h1>WebOb <small>WSGI request and response objects</small></h1>
+        </div>
+        <div class="row">
+          <div class="span10">
+
+<p>WebOb is a Python library that provides wrappers around the WSGI request environment,
+and an object to help create WSGI responses.
+</p>
+
+<p>The objects map much of the specified behavior of HTTP, including header parsing and accessors for other standard parts of the environment.
+This helps you create valid WSGI applications and middleware without knowing all the complexities of WSGI itself.
+</p>
+
+<h3>WebOb benefits</h3>
+<ul>
+    <li>Time-proven codebase that hides and works around all known WSGI quirks.</li>
+    <li>Bugs are always fixed ASAP.</li>
+    <li>No external dependencies.</li>
+</ul>
+
+<h3>Notable users</h3>
+<ul>
+    <li><a href="#">Pyramid</a></li>
+    <li><a href="#">Pylons</a></li>
+    <li><a href="#">Google App Engine</a></li>
+    <li><a href="#">OpenStack</a></li>
+</ul>
+<!--            <h2>Main content</h2> -->
+          </div>
+          <div class="span4">
+            <h4>Newest release: 1.2a2</h3>
+            <ul>
+                <li><a href="#">What's new</a></li>
+                <li><a href="#">Download</a></li>
+            </ul>
+            <h4>Stable release: 1.1.1</h3>
+            <ul>
+                <li><a href="#">Download</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</body>
+</html>
+
